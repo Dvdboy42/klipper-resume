@@ -24,10 +24,13 @@ When running `PLR_RESUME`, it first triggers `plr_resume.py` and then starts pri
 The `PLR_RESUME_START_GCODE` macro can be very easily edited to fit your needs. Whatever is inside runs before the actual print, similar to a `PRINT_START` macro, but specific to recovery.
 
 # Todo soon™
-- merge the 2 scripts
-- better defaults
-- adaptive byte offset (based on print speed, speed multiplier, gcode resolution)
-- settings documentation 
+- upload the damn updated files
+- ~~merge the 2 scripts~~
+- ~~better defaults~~
+- double buffer state file
+- external SD support to reduce wear, f2fs format, noatime
+- adaptive byte offset (based on print speed, speed multiplier, gcode resolution, log cycle time, average over print)
+- ~~settings documentation~~
 - install script
 - ~~easier configuration~~
 - ~~more flexible parameter management (ex: various fans, custom config sections)~~
